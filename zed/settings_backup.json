@@ -1,0 +1,57 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "status_bar": {
+    "experimental.show": false
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "file_types": {},
+  "icon_theme": {
+    "mode": "dark",
+    "light": "JetBrains New UI Icons (Dark)",
+    "dark": "JetBrains New UI Icons (Dark)"
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "terminal.toolbar.breadcrumbs": false,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Fleet Dark"
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+
+  "terminal": {
+    "font_family": "DejaVuSansM Nerd Font",
+    "font_size": 15
+  },
+
+  "languages": {
+    "v": {
+      "tab_size": 4,
+      "format_on_save": true,
+      "enable_language_server": true
+      // Add other V-specific settings as needed
+    }
+  }
+}

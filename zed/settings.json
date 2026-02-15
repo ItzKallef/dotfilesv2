@@ -1,0 +1,100 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ssh_connections": [
+    {
+      "host": "cs.automatic-eureka-7g6995p576whr5jw.main",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/codespace"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "cs.automatic-eureka-7g6995p576whr5jw.main",
+      "args": [],
+      "projects": []
+    }
+  ],
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "status_bar": {
+    "experimental.show": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "file_types": {},
+  "icon_theme": {
+    "mode": "dark",
+    "light": "JetBrains New UI Icons (Dark)",
+    "dark": "Zed (Default)"
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "ui_font_family": "DejaVuSansM Nerd Font",
+  "terminal.toolbar.breadcrumbs": false,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Cursor Dark"
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 15
+  },
+
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
+
+  "lsp": {
+    "daslang": {
+      "binary": {
+        "path": "/usr/local/bin/node",
+        "arguments": ["/Users/junior/daScript_lsp/server/server.js", "--stdio"]
+      }
+    },
+    "omnisharp": {
+      "binary": {
+        "path": "/Users/junior/omnisharp-osx",
+        "arguments": ["optional", "additional", "args", "-lsp"]
+      }
+    }
+  },
+  "languages": {
+    "V": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "enable_language_server": true
+      // Add other V-specific settings as needed
+    },
+    "dascript": {
+      "name": "daScript",
+      "extensions": ["das", "dascript"]
+    }
+  }
+}

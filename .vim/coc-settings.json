@@ -1,0 +1,27 @@
+{
+  "snippets.ultisnips.pythonPrompt": false,
+  "suggest.noselect": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.pythonPath": "/usr/bin/python3",
+  "diagnostic.enable": false,
+  "diagnostic.signs": false,
+  "diagnostic.virtualText": true,
+  "diagnostic.enableHighlightLineNumber": false,
+  "diagnostic.enableHighlightLine": false,
+  "inlayHint.enable": false	
+},
+{
+  "languageserver": {
+    "vlang": {
+      "command": "v-analyzer",
+      "args": [],
+      "filetypes": ["v"],
+      "rootPatterns": ["v.mod", ".git/"],
+      "initializationOptions": {
+        "enableDiagnostics": true,
+        "enableFormatting": true
+      }
+    }
+  }
+}
+
