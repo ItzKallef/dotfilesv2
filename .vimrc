@@ -91,9 +91,9 @@ let g:mapleader = ","
 
 " NERDTree
 
-nmap <leader>n :NERDTreeFocus<CR>
+nmap <silent> <leader>n :NERDTreeFocus<CR>
 
-nmap <C-n> :NERDTreeToggle<CR>
+nmap <silent> <C-n> :NERDTreeToggle<CR>
 
 
 
