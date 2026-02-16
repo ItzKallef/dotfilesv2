@@ -19,8 +19,8 @@ Plug 'ctrlpvim/ctrlp.vim'           " fuzzy find files
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 "Plug 'Exafunction/windsurf.vim', { 'branch': 'main' }
-Plug 'tomasiser/vim-code-dark'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'tomasiser/vim-code-dark'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf'                 " remove lambda syntax
 
 Plug 'junegunn/fzf.vim'
@@ -43,7 +43,8 @@ set laststatus=0
 "colorscheme onedark 
 set fillchars=eob:\ 
 syntax off
-
+set cursorline
+hi CursorLine term=none cterm=none
 set bs=2
 
 set hlsearch
