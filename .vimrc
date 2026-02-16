@@ -99,13 +99,13 @@ nmap <silent> <C-n> :NERDTreeToggle<CR>
 
 " Buffers
 
-nnoremap H :bprevious!<CR>
+nnoremap <silent> H :bprevious!<CR>
 
-nnoremap L :bnext!<CR>
+nnoremap <silent> L :bnext!<CR>
 
-nnoremap b :bdelete!<CR>
+nnoremap <silent> b :bdelete!<CR>
 
-nnoremap gb :ls<CR>:b<Space>
+nnoremap <silent> gb :ls<CR>:b<Space>
 
 
 
@@ -141,17 +141,17 @@ noremap <Leader>p "+p
 
 " Save
 
-nnoremap <C-s> :w<CR>
+nnoremap <silent> <C-s> :w<CR>
 
-inoremap <C-s> <Esc>:w<CR>a
+inoremap <silent> <C-s> <Esc>:w<CR>a
 
-vnoremap <C-s> <Esc>:w<CR>gv
+vnoremap <silent> <C-s> <Esc>:w<CR>gv
 
 
 
 " Terminal mapping (Linux-compatible)
 
-nnoremap <leader>t :botright terminal<CR>
+nnoremap <silent> <leader>t :botright terminal<CR>
 
 tnoremap <Esc> <C-\><C-n>
 
