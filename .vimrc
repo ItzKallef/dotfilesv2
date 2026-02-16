@@ -127,7 +127,7 @@ nnoremap = <C-w>>
 
 nnoremap - <C-w><
 
-nnoremap m :noh<CR>
+nnoremap <silent> m :noh<CR>
 
 
 
